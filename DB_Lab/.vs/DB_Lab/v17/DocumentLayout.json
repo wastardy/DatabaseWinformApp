@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|c:\\users\\\u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\db_lab\\db_lab\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|solutionrelative:db_lab\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\db_lab\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|solutionrelative:db_lab\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\db_lab\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|solutionrelative:db_lab\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\db_lab\\frmexpert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|solutionrelative:db_lab\\frmexpert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\db_lab\\frmexpert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|solutionrelative:db_lab\\frmexpert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\db_lab\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8076668A-59FA-4763-BC4E-EA7314FC79F4}|DB_Lab\\DB_Lab.csproj|solutionrelative:db_lab\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmExpert.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\frmExpert.cs",
+              "RelativeDocumentMoniker": "DB_Lab\\frmExpert.cs",
+              "ToolTip": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\frmExpert.cs*",
+              "RelativeToolTip": "DB_Lab\\frmExpert.cs*",
+              "ViewState": "AQIAAE0CAAAAAAAAAAAAAOoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:49:16.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmExpert.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\frmExpert.cs",
+              "RelativeDocumentMoniker": "DB_Lab\\frmExpert.cs",
+              "ToolTip": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\frmExpert.cs [Design]*",
+              "RelativeToolTip": "DB_Lab\\frmExpert.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:34:21.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\LogIn.cs",
+              "RelativeDocumentMoniker": "DB_Lab\\LogIn.cs",
+              "ToolTip": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\LogIn.cs",
+              "RelativeToolTip": "DB_Lab\\LogIn.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJ8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T00:36:58.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogIn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\LogIn.cs",
+              "RelativeDocumentMoniker": "DB_Lab\\LogIn.cs",
+              "ToolTip": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\LogIn.cs [Design]",
+              "RelativeToolTip": "DB_Lab\\LogIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T00:36:48.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "myDB.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\myDB.cs",
+              "RelativeDocumentMoniker": "DB_Lab\\myDB.cs",
+              "ToolTip": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\myDB.cs [Design]",
+              "RelativeToolTip": "DB_Lab\\myDB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T20:26:11.01Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "myDB.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\myDB.cs",
+              "RelativeDocumentMoniker": "DB_Lab\\myDB.cs",
+              "ToolTip": "C:\\Users\\\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\\source\\repos\\DB_Lab\\DB_Lab\\myDB.cs",
+              "RelativeToolTip": "DB_Lab\\myDB.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAwwHUAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T20:44:47.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

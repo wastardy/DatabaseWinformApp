@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8076668A-59FA-4763-BC4E-EA7314FC79F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DB_Lab</RootNamespace>
+    <AssemblyName>DB_Lab</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addNewUser.Designer.cs">
+      <DependentUpon>addNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteUser.Designer.cs">
+      <DependentUpon>deleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editAccessType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editAccessType.Designer.cs">
+      <DependentUpon>editAccessType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editExpert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editExpert.Designer.cs">
+      <DependentUpon>editExpert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editExploration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editExploration.Designer.cs">
+      <DependentUpon>editExploration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editGemstone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editGemstone.Designer.cs">
+      <DependentUpon>editGemstone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editLaboratory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editLaboratory.Designer.cs">
+      <DependentUpon>editLaboratory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editPassword.Designer.cs">
+      <DependentUpon>editPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exportExpert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exportExpert.Designer.cs">
+      <DependentUpon>exportExpert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddExploration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddExploration.Designer.cs">
+      <DependentUpon>frmAddExploration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddGemstone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddGemstone.Designer.cs">
+      <DependentUpon>frmAddGemstone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddLaboratory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddLaboratory.Designer.cs">
+      <DependentUpon>frmAddLaboratory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddToExpert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddToExpert.Designer.cs">
+      <DependentUpon>frmAddToExpert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpert.Designer.cs">
+      <DependentUpon>frmExpert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExploration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExploration.Designer.cs">
+      <DependentUpon>frmExploration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGemstone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGemstone.Designer.cs">
+      <DependentUpon>frmGemstone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLaboratory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLaboratory.Designer.cs">
+      <DependentUpon>frmLaboratory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemoveExpert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemoveExpert.Designer.cs">
+      <DependentUpon>frmRemoveExpert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemoveExploration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemoveExploration.Designer.cs">
+      <DependentUpon>frmRemoveExploration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemoveGem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemoveGem.Designer.cs">
+      <DependentUpon>frmRemoveGem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemoveLaboratory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemoveLaboratory.Designer.cs">
+      <DependentUpon>frmRemoveLaboratory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="myDB.Designer.cs">
+      <DependentUpon>myDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addNewUser.resx">
+      <DependentUpon>addNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteUser.resx">
+      <DependentUpon>deleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editAccessType.resx">
+      <DependentUpon>editAccessType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editExpert.resx">
+      <DependentUpon>editExpert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editExploration.resx">
+      <DependentUpon>editExploration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editGemstone.resx">
+      <DependentUpon>editGemstone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editLaboratory.resx">
+      <DependentUpon>editLaboratory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editPassword.resx">
+      <DependentUpon>editPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exportExpert.resx">
+      <DependentUpon>exportExpert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddExploration.resx">
+      <DependentUpon>frmAddExploration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddGemstone.resx">
+      <DependentUpon>frmAddGemstone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddLaboratory.resx">
+      <DependentUpon>frmAddLaboratory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddToExpert.resx">
+      <DependentUpon>frmAddToExpert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpert.resx">
+      <DependentUpon>frmExpert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExploration.resx">
+      <DependentUpon>frmExploration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGemstone.resx">
+      <DependentUpon>frmGemstone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLaboratory.resx">
+      <DependentUpon>frmLaboratory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemoveExpert.resx">
+      <DependentUpon>frmRemoveExpert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemoveExploration.resx">
+      <DependentUpon>frmRemoveExploration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemoveGem.resx">
+      <DependentUpon>frmRemoveGem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemoveLaboratory.resx">
+      <DependentUpon>frmRemoveLaboratory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="myDB.resx">
+      <DependentUpon>myDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scientist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lab_microscope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exploration1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lab1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gemLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
